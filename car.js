@@ -11,7 +11,7 @@
 4. In Vehicle's derived classes, override the logTypeAndProps method to specify whether the object is an instance of Motorcycle or Car (ex: print "Car specs : ..." or "Motorcycle specs : ..." instead of "Vehicle specs : ...").
 */
 
-import Vehicle from "./vehicle.js";
+import Vehicle from './vehicle';
 
 class Car extends Vehicle {
     constructor(color, name, nbWheels) {
@@ -25,4 +25,4 @@ class Car extends Vehicle {
     }
 }
 
-export default class {}
+module.exports = Car;

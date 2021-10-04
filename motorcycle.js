@@ -11,7 +11,7 @@
 4. In Vehicle's derived classes, override the logTypeAndProps method to specify whether the object is an instance of Motorcycle or Car (ex: print "Car specs : ..." or "Motorcycle specs : ..." instead of "Vehicle specs : ...").
 */
 
-const Vehicle = require('./vehicle');
+const Vehicle = require('./vehicle.js');
 
 class Motorcycle extends Vehicle {
     constructor(color, name, nbWheels) {

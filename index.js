@@ -1,6 +1,6 @@
-import Vehicle from './vehicle';
-import Car from './car';
-import Motorcycle from './motorcycle';
+const Vehicle = require('./vehicle') ;
+const Car = require('./car');
+const Motorcycle = require('./motorcycle');
 
 /* class Vehicle {
     constructor(color, name, nbWheels) {
@@ -36,6 +36,7 @@ class Motorcycle extends Vehicle {
         return console.log("Motorcycle specs: " + this.getPropsString());
     }
 } */
+
 
 const myVehicle = new Vehicle("Light blue", "Pescadillac", 500);
 myVehicle.logTypeAndProps();
